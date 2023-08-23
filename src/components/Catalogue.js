@@ -20,7 +20,7 @@ const Catalogue = () => {
             include_adult: 'false',
             include_video: 'false',
             page: 1,
-            primary_release_year: 1999,
+            primary_release_year: 1987,
             },
         }).then( (results) => {
            const apiResults =  results.data.results
